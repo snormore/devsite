@@ -33,9 +33,6 @@ DevSite - Readme
 
   Summary:
     A web-based project management and development environment written in PHP.
-	Provides a means for developers of a single project or many projects; big
-	projects or small projects to manage the difficulties of keeping in touch
-	and up to date.
 	- Full authentication system.
 	- User access rights to restrict specific areas.
 	- Projects module provides a means to create and manage several different
