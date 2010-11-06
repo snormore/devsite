@@ -1,0 +1,4 @@
+<FilesMatch "screenshot.php|download.php">
+	order deny,allow
+	allow from all
+</FilesMatch>

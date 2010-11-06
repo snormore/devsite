@@ -1,0 +1,69 @@
+DevSite - Readme
+===================
+
+  A project management and developemnt web environment.
+
+  Version 0.1 alpha - November 2003
+  ---------------------------
+  http://devsite.sourceforge.net/
+
+	Authors:
+	Steven Normore [zyx321] <zyx321@users.sourceforge.net>
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+  Requirements:
+    PHP3 (>= 3.0.8) or PHP4
+    MySQL (tested with 4.0.x)
+	Apache2 (or a web-server that supports apache style .htaccess files
+		and directives)
+    Web-browser
+
+  Summary:
+    A web-based project management and development environment written in PHP.
+	Provides a means for developers of a single project or many projects; big
+	projects or small projects to manage the difficulties of keeping in touch
+	and up to date.
+	- Full authentication system.
+	- User access rights to restrict specific areas.
+	- Projects module provides a means to create and manage several different
+	projects.
+	- Teams module provides a means for several sub-groups or development
+	teams within a project.
+	- Tasks can be assigned (or unassigned) per team.
+	- File manager module lets users upload/download/edit files in their
+	project.
+	- Agenda includes a calendar and events that can be created/deleted/edited
+	easily.
+	- Each project gets a forum to communicate through.
+	- Each project has their own links section where important links can be
+	added for the rest of the project developers.
+	- Each user has their own bookmarks section where they can add/delete
+	bookmarks at will. The best part about this section is the ability to
+	create bookmarks that link within the DevSite itself for easier
+	navigation with the "Bookmark This Page!" link.
+
+  Download:
+	You can get the newest version at http://devsite.sourceforge.net.
+
+  Installation:
+	Upload the contents of the zip file to your server directory.
+	Through a webbrowser run the file install.php in the devsite root
+	directory. Fill out all of the fields it asks for and then just
+	follow the instructions given from there.
+	Thats it!
+
+  Support:
+	Use the forums provided by Sourceforge.net, http://devsite.sourceforge.net/

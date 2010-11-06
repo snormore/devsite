@@ -1,0 +1,156 @@
+a:link, a:visited, a:active {
+    text-decoration: underline;
+    color: #000000;
+}
+
+a:hover {
+    color: #465584;
+    text-decoration: underline;
+}
+
+input, textarea {
+    border: solid 1pt #000000;
+    background-color: #C0C0C0;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    font-size: 11px;
+    color: #000000;
+}
+
+input.normal {
+    border: solid 0pt #F2F2F2;
+    background-color: #F2F2F2;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    font-size: 11px;
+    color: #000000;
+}
+
+.error {
+	color: #FF0000;
+}
+
+table.center_table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/****************************/
+/*	   User-list Layer		*/
+/****************************/
+div.user-list {
+    overflow: auto;
+    width: 140px;
+    height: 60px;
+    border: solid 1pt #000000;
+    background-color: #F2F2F2;
+    text-align: left;
+}
+
+
+/****************************/
+/*		   InfoView			*/
+/****************************/
+/* This controls how for example the project info is viewed when you click on a project. */
+.infoview {
+	width: 400px;
+	border-width: 0px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+div.title {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+/****************************/
+/*		   Agenda			*/
+/****************************/
+table.calendar_big {
+    border-left: solid 1pt #000000;
+    border-bottom: solid 1pt #000000;
+    background-color: #FFFFFF;
+	margin: auto auto auto auto;
+}
+
+td.calbig_days {
+    text-align: center;
+    background-color: #CCFF99;
+    border-top: solid 1pt #000000;
+    border-right: solid 1pt #000000;
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+    width: 80px;
+}
+
+td.calbig_day {
+    text-align: left;
+    vertical-align: top;
+    background-color: #FFFFFF;
+    border-top: solid 1pt #000000;
+    border-right: solid 1pt #000000;
+    padding: 5px 5px 5px 5px;
+    width: 80px;
+    height: 80px;
+}
+
+table.calendar_small {
+	border: solid 1pt #000000;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td.calsmall_days {
+	border-bottom: solid 1pt #000000;
+	text-align: center;
+    background-color: #CCFF99;
+	padding: 2px 2px 2px 2px;
+}
+
+td.calsmall_day {
+	text-align: center;
+    background-color: #FFFFFF;
+	padding: 2px 2px 2px 2px;
+}
+
+a.cal_link:link,a.cal_link:visited,a.cal_link:active {
+	text-decoration: none;
+}
+a.cal_link:hover {
+	text-decoration: underline;
+}
+
+
+/****************************/
+/*		   Forum			*/
+/****************************/
+table.forum {
+    background-color: #F2F2F2;
+	border: solid 1pt #000000;
+	margin: auto auto auto auto;
+}
+
+td.forum_topic {
+	border-bottom: solid 1pt #000000;
+	padding: 5px 5px 5px 5px;
+}
+
+td.forum_left {
+	border-right: solid 1pt #000000;
+	font-size: 10px;
+	padding: 5px 5px 5px 5px;
+	vertical-align:top;
+	background-color: #AAAAAA;
+}
+
+div.forum_left {
+	width: 100px;
+	overflow: hidden;
+}
+
+td.forum_content {
+	width: 100%;
+	padding: 10px 10px 10px 10px;
+	vertical-align:top;
+}

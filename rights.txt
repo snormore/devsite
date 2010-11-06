@@ -1,0 +1,13 @@
+System
+------
+s - Super admin
+a - Admin
+r - read-only admin
+
+Projects
+--------
+l - project leader
+
+Teams
+-----
+l - team leader
